@@ -1,0 +1,15 @@
+Employee (empid,empname,empsal,empdob,emploc)
+
+CREATE TABLE EMPLOYEE (
+  empId INTEGER PRIMARY KEY,
+  empname TEXT NOT NULL,
+  empsal INTEGER NOT NULL,
+  empdob TEXT NOT NULL,
+  emploc TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'SONY', '45000','2001-04-20','Mysur');
+INSERT INTO EMPLOYEE VALUES (0002, 'SANA', '50000','2002-12-15','Hyderabad');
+INSERT INTO EMPLOYEE VALUES (0003, 'TANYA', '10000','2011-08-28','Chennai');
+
